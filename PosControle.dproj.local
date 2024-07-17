@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/07/17 23:06:09.000.281,=C:\Users\Hacson Alexandre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/03 18:30:47.000.461,=C:\Users\Hacson Alexandre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/06/10 22:54:13.000.457,=C:\Users\Hacson Alexandre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/29 20:47:55.000.853,=C:\Users\Hacson Alexandre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 09:35:52.000.749,=C:\Infarma\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 10:27:26.000.064,=C:\Infarma\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 10:55:58.000.866,=C:\Infarma\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 11:41:42.000.784,=C:\Infarma\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/31 23:17:53.000.422,=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/01 23:52:07.000.914,=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/27 22:53:42.000.278,=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/06 22:10:12.000.820,=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/06 23:21:56.000.650,=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/07 07:21:19.000.913,=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/26 09:11:04.000.262,=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 18:58:49.000.982,=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/16 16:41:40.000.813,=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/16 16:42:52.000.921,D:\Fontes\XE10\Exemplo POS\UPrincipal.fmx=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024/07/16 16:42:52.000.921,D:\Fontes\XE10\Exemplo POS\UPrincipal.pas=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/16 16:42:58.000.144,D:\Fontes\XE10\Exemplo POS\PosControle.dproj=D:\OneDrive\OneDrive - infarma.com.br\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/07/16 16:43:34.000.231,=D:\Fontes\XE10\Exemplo POS\SmartPos.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

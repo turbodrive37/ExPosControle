@@ -1,0 +1,303 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 377.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      640s
+      351s
+      640s
+      351s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 91.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Configura'#231#227'o'
+      ExplicitSize.cx = 91.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Label1: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 24.000000000000000000
+        Position.Y = 32.000000000000000000
+        Size.Width = 81.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        Text = 'OCI Key'
+        TabOrder = 6
+      end
+      object edtOciKey: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 7
+        Position.X = 272.000000000000000000
+        Position.Y = 32.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label2: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 24.000000000000000000
+        Position.Y = 64.000000000000000000
+        Size.Width = 81.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        Text = 'Client ID'
+        TabOrder = 4
+      end
+      object edtcliid: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 5
+        Position.X = 272.000000000000000000
+        Position.Y = 64.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label3: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 24.000000000000000000
+        Position.Y = 96.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        Text = 'Client Secret'
+        TabOrder = 2
+      end
+      object edtsecret: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 3
+        Position.X = 272.000000000000000000
+        Position.Y = 96.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label4: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 24.000000000000000000
+        Position.Y = 128.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        Text = 'Serial Maquineta'
+        TabOrder = 0
+      end
+      object edtserial: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        Position.X = 272.000000000000000000
+        Position.Y = 128.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 107.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Dados da Venda'
+      ExplicitSize.cx = 107.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Button1: TButton
+        Position.X = 32.000000000000000000
+        Position.Y = 214.000000000000000000
+        Size.Width = 113.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        Text = 'Gerar Transa'#231#227'o'
+        OnClick = Button1Click
+      end
+      object mmresp: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Align = Bottom
+        Position.Y = 264.000000000000000000
+        Size.Width = 640.000000000000000000
+        Size.Height = 87.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 8
+        Viewport.Width = 636.000000000000000000
+        Viewport.Height = 83.000000000000000000
+      end
+      object Label5: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 32.000000000000000000
+        Position.Y = 18.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        Text = 'N'#186' Transa'#231#227'o'
+        TabOrder = 14
+      end
+      object edtnrtran: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 15
+        Text = '22'
+        Position.X = 280.000000000000000000
+        Position.Y = 18.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label6: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 32.000000000000000000
+        Position.Y = 50.000000000000000000
+        Size.Width = 145.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        Text = 'Tipo de Opera'#231#227'o'
+        TabOrder = 12
+      end
+      object edtoper: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 13
+        Text = '2'
+        Position.X = 280.000000000000000000
+        Position.Y = 50.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label7: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 32.000000000000000000
+        Position.Y = 82.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        Text = 'Qtde de Parcelas'
+        TabOrder = 9
+      end
+      object edtqtde: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 11
+        Text = '4'
+        Position.X = 280.000000000000000000
+        Position.Y = 82.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label8: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 32.000000000000000000
+        Position.Y = 114.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        Text = 'CPF'
+        TabOrder = 1
+      end
+      object edtcpf: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 3
+        Text = '11111111111'
+        Position.X = 280.000000000000000000
+        Position.Y = 114.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object edtnome: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 10
+        Text = 'Fulano de tal'
+        Position.X = 280.000000000000000000
+        Position.Y = 146.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object edtvalor: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        Text = '29,99'
+        Position.X = 280.000000000000000000
+        Position.Y = 178.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label9: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 32.000000000000000000
+        Position.Y = 146.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        Text = 'Nome do Cliente'
+        TabOrder = 7
+      end
+      object Label10: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 32.000000000000000000
+        Position.Y = 178.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        Text = 'Valor da Transa'#231#227'o'
+        TabOrder = 0
+      end
+      object Button2: TButton
+        Enabled = False
+        Position.X = 168.000000000000000000
+        Position.Y = 214.000000000000000000
+        Size.Width = 129.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = 'Consultar Transa'#231#227'o'
+        OnClick = Button2Click
+      end
+      object Button3: TButton
+        Enabled = False
+        Position.X = 312.000000000000000000
+        Position.Y = 214.000000000000000000
+        Size.Width = 129.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = 'Cancelar Transa'#231#227'o'
+        OnClick = Button3Click
+      end
+    end
+  end
+end
